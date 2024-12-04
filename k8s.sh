@@ -3,7 +3,7 @@ sudo -i
 sudo hostnamectl set-hostname  master
 sudo timedatectl set-timezone America/New_York
 sudo apt update -y
-sudo apt install tree nano  vim -y
+sudo apt install tree nano git vim -y
 sudo apt install net-tools -y
 sudo apt install docker.io -y
 sudo usermod -aG docker ubuntu
